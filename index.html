@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body onkeydown="playNote(event, '')" onkeyup="returnColor()">
+    <div id="piano">
+      <p id="cNote" class="white" onmouseover="playNote('','cNote')" onmouseleave="returnColor()"> C </p>
+      <p id="c#" class="black" onmouseover="playNote('','c#')" onmouseleave="returnColor()"> D♭ <br> C# </p>
+      <p id="dNote" class="white" onmouseover="playNote('','dNote')" onmouseleave="returnColor()"> D </p>
+      <p id="d#" class="black" onmouseover="playNote('','d#')" onmouseleave="returnColor()"> E♭ <br> D# </p>
+      <p id="eNote" class="white" onmouseover="playNote('','eNote')" onmouseleave="returnColor()"> E </p>
+      <p id="fNote" class="white" onmouseover="playNote('','fNote')" onmouseleave="returnColor()"> F </p>
+      <p id="f#" class="black" onmouseover="playNote('','f#')" onmouseleave="returnColor()"> G♭ <br> F# </p>
+      <p id="gNote" class="white" onmouseover="playNote('','gNote')" onmouseleave="returnColor()"> G </p>
+      <p id="g#" class="black" onmouseover="playNote('','g#')" onmouseleave="returnColor()"> A♭ <br> G# </p>
+      <p id="aNote" class="white" onmouseover="playNote('','aNote')" onmouseleave="returnColor()"> A </p>
+      <p id="a#" class="black" onmouseover="playNote('','a#')" onmouseleave="returnColor()"> B♭ <br> A# </p>
+      <p id="bNote" class="white" onmouseover="playNote('','bNote')" onmouseleave="returnColor()"> B </p>
+      <!-- <p id="c" class="white" onmouseover="playNote('c')"> C </p> -->
+    </div>
+  </body>
+</html>
