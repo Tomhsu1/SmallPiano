@@ -1,0 +1,25 @@
+.white {
+  width: 30px;
+  height: 100px;
+  background-color: white;
+  display: inline-block;
+  border-style: solid;
+  text-align: center;
+  user-select: none;
+}
+.white:hover {
+  background-color: grey;
+}
+.black {
+  width: 20px;
+  height: 100px;
+  background-color: black;
+  display: inline-block;
+  color: white;
+  position: absolute;
+  margin-left: -0.8em;
+  user-select: none;
+}
+.black:hover {
+  background-color: grey;
+}
